@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="grid-system-advanced-nesting.css">
+    <title>grid-system-advanced-nesting</title>
 </head>
 <body>
-$END$
+<section class="container">
+    <article class="row">
+        <article class="col-xs-12">Första rown</article>
+    </article>
+    <article class="row">
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <article class="row">
+                <article class="col-xs-6 col-md-4 col-lg-4">2</article>
+                <article class="col-xs-6 col-md-4 col-lg-4">3</article>
+                <article class="col-xs-12 col-md-4 col-lg-4">4</article>
+                <article class="col-xs-12">5</article>
+            </article>
+        </article>
+    </article>
+</section>
 </body>
 </html>
