@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Modal</title>
+</head>
+<body>
+<div class="container">
+    <div class="panel-default panel">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <h2>This is the text to be saved</h2>
+                <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae enim error
+                        exercitationem facere labore magnam nesciunt non obcaecati, perspiciatis placeat possimus,
+                        quia ratione tempore voluptatem! Eligendi fuga maiores quia! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci amet aspernatur consequuntur cumque cupiditate debitis eaque, facilis in,
+                        iure iusto labore laborum minus nisi porro quaerat quas quos rem ut?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Save?
+    </button>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Save?</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure that you want to save this crap text?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <a href="#cat" data-toggle="modal">
+                <img src="Images/cat-1508613_1920.jpg" class="img-thumbnail img-responsive" alt="This is a cat">
+            </a>
+        </div>
+        <div class="col-lg-3">
+            <a href="#cute" data-toggle="modal">
+                <img src="Images/cute-2500929_1920.jpg" class="img-thumbnail img-responsive" alt="This is a bunny">
+            </a>
+        </div>
+        <div class="col-lg-3">
+            <a href="#frogs" data-toggle="modal">
+                <img src="Images/frogs-1650657_1920.jpg" class="img-thumbnail img-responsive" alt="This is a bunny">
+            </a>
+        </div>
+        <div class="col-lg-3">
+            <a href="#puppy" data-toggle="modal">
+                <img src="Images/puppy-2893826_1920.jpg" class="img-thumbnail img-responsive" alt="This is a bunny">
+            </a>
+        </div>
+    </div>
+    <div class="modal fade" id="cat">
+        <div class="modal-dialog">
+            <img src="Images/cat-1508613_1920.jpg" alt="First picture" class="img-responsive img-rounded">
+        </div>
+    </div>
+    <div class="modal fade" id="cute">
+        <div class="modal-dialog">
+            <img src="Images/cute-2500929_1920.jpg" alt="First picture" class="img-responsive img-rounded">
+        </div>
+    </div>
+    <div class="modal fade" id="frogs">
+        <div class="modal-dialog">
+            <img src="Images/frogs-1650657_1920.jpg" alt="First picture" class="img-responsive img-rounded">
+        </div>
+    </div>
+    <div class="modal fade" id="puppy">
+        <div class="modal-dialog">
+            <img src="Images/puppy-2893826_1920.jpg" alt="First picture" class="img-responsive img-rounded">
+        </div>
+    </div>
+</div>
+</body>
+</html>
