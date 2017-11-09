@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Collapase</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a href="#" data-toggle="collapse" data-target="#collapseId" class="panel-title">
+                        Click to toggle content
+                    </a>
+                </div>
+                <div class="collapse" id="collapseId">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, veritatis.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a href="#" data-toggle="collapse" data-target="#collapsebar" class="panel-title">
+                        Click to toggle content
+                    </a>
+                </div>
+                <div class="collapse" id="collapsebar">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, veritatis.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a href="#" data-toggle="collapse" data-target="#collapsebar3" class="panel-title">
+                        Click to toggle content
+                    </a>
+                </div>
+                <div class="collapse" id="collapsebar3">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, veritatis.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6">
+            <button type="button" class="btn-primary btn" data-target="#wellOne" data-toggle="collapse">Button 1</button>
+            <button type="button" class="btn-danger btn" data-target="#wellTwo" data-toggle="collapse">Button 2</button>
+            <button type="button" class="btn-info btn" data-target="#wellThree" data-toggle="collapse">Button 3</button>
+            <button type="button" class="btn-success btn" data-target="#wellFour" data-toggle="collapse">Button 4</button>
+            <div class="collapse" id="wellOne">
+                <div class="well">This is some text</div>
+            </div>
+            <div class="collapse" id="wellTwo">
+                <div class="well">Some other text</div>
+            </div>
+            <div class="collapse" id="wellThree">
+                <div class="well">Some new text</div>
+            </div>
+            <div class="collapse" id="wellFour">
+                <div class="well">This is number four</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
